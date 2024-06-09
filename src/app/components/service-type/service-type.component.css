@@ -1,0 +1,17 @@
+#card {
+    font-size: large;
+    width: 400px;
+    border: 2px, wheat, solid;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.serviceImg {
+    border: 2px, wheat, solid;
+    margin: 15px;
+    width: 250px;
+    height: 250px;
+    display: inline;
+
+}

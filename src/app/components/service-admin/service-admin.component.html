@@ -1,0 +1,9 @@
+<div class="card" *ngFor="let customer of customerList" style="border: 1px solid black;">
+  <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+    <mat-button-toggle value="bold">Delete </mat-button-toggle>
+    <mat-button-toggle value="italic">Edit</mat-button-toggle>
+    <mat-button-toggle value="underline">Watch meeting
+    </mat-button-toggle>
+  </mat-button-toggle-group>
+  <h3>{{customer.name}}</h3>
+</div>
